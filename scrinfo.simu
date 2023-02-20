@@ -1,0 +1,555 @@
+<circuit Speed_sps="16000000" type="simulide_0.4" Simu_Step_nS="62.5" animate="0" reactStep="100" noLinAcc="3" Speed_per="100">
+
+Unique  Id: Rectangle-294: 
+Circuit Id: Rectangle-294
+<item labelrot="0" Color="#000000" x="-300" H_size="180" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="6.7024439591602165e-316" mainComp="false" Border="0" vflip="1" valLabelx="0" itemtype="Rectangle" Z_Value="-1" Show_id="false" id="Rectangle-294" y="-384" Opacity="1" boardPos="-1e+06,-1e+06" objectName="Rectangle-294" labelx="-16" V_size="300" valLabRot="0"/>
+
+Unique  Id: WS2812-234: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-268" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-384" boardPos="-1e+06,-1e+06" objectName="WS2812-234" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-233: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-244" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-432" boardPos="-1e+06,-1e+06" objectName="WS2812-233" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-232: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-268" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-480" boardPos="-1e+06,-1e+06" objectName="WS2812-232" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-231: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-244" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-408" boardPos="-1e+06,-1e+06" objectName="WS2812-231" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-230: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-268" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-504" boardPos="-1e+06,-1e+06" objectName="WS2812-230" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-229: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-244" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-288" boardPos="-1e+06,-1e+06" objectName="WS2812-229" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-228: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-268" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-336" boardPos="-1e+06,-1e+06" objectName="WS2812-228" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-227: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-268" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-360" boardPos="-1e+06,-1e+06" objectName="WS2812-227" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-226: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-268" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-312" boardPos="-1e+06,-1e+06" objectName="WS2812-226" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-225: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-244" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-384" boardPos="-1e+06,-1e+06" objectName="WS2812-225" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-224: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-244" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-456" boardPos="-1e+06,-1e+06" objectName="WS2812-224" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-223: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-244" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-336" boardPos="-1e+06,-1e+06" objectName="WS2812-223" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-222: 
+Circuit Id: WS2812-103
+<item labelrot="0" x="-244" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="-5.5443873288720372e+303" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-103" y="-312" boardPos="-1e+06,-1e+06" objectName="WS2812-222" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-221: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-268" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-264" boardPos="-1e+06,-1e+06" objectName="WS2812-221" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-220: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-268" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-456" boardPos="-1e+06,-1e+06" objectName="WS2812-220" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-219: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-268" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-408" boardPos="-1e+06,-1e+06" objectName="WS2812-219" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-218: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-244" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-504" boardPos="-1e+06,-1e+06" objectName="WS2812-218" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-217: 
+Circuit Id: WS2812-103
+<item labelrot="0" x="-244" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="-5.5443873288720372e+303" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-103" y="-264" boardPos="-1e+06,-1e+06" objectName="WS2812-217" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-216: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-244" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-360" boardPos="-1e+06,-1e+06" objectName="WS2812-216" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-215: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-244" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-480" boardPos="-1e+06,-1e+06" objectName="WS2812-215" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-214: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-268" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-432" boardPos="-1e+06,-1e+06" objectName="WS2812-214" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-213: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-268" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-288" boardPos="-1e+06,-1e+06" objectName="WS2812-213" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-169: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-316" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-384" boardPos="-1e+06,-1e+06" objectName="WS2812-169" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-168: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-292" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-432" boardPos="-1e+06,-1e+06" objectName="WS2812-168" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-167: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-316" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-480" boardPos="-1e+06,-1e+06" objectName="WS2812-167" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-166: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-292" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-408" boardPos="-1e+06,-1e+06" objectName="WS2812-166" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-165: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-316" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-504" boardPos="-1e+06,-1e+06" objectName="WS2812-165" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-164: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-292" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-288" boardPos="-1e+06,-1e+06" objectName="WS2812-164" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-163: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-316" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-336" boardPos="-1e+06,-1e+06" objectName="WS2812-163" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-162: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-316" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-360" boardPos="-1e+06,-1e+06" objectName="WS2812-162" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-161: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-316" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-312" boardPos="-1e+06,-1e+06" objectName="WS2812-161" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-160: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-292" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-384" boardPos="-1e+06,-1e+06" objectName="WS2812-160" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-159: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-292" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-456" boardPos="-1e+06,-1e+06" objectName="WS2812-159" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-158: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-292" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-336" boardPos="-1e+06,-1e+06" objectName="WS2812-158" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-157: 
+Circuit Id: WS2812-103
+<item labelrot="0" x="-292" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="-5.5443873288720372e+303" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-103" y="-312" boardPos="-1e+06,-1e+06" objectName="WS2812-157" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-156: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-316" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-264" boardPos="-1e+06,-1e+06" objectName="WS2812-156" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-155: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-316" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-456" boardPos="-1e+06,-1e+06" objectName="WS2812-155" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-154: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-316" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-408" boardPos="-1e+06,-1e+06" objectName="WS2812-154" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-153: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-292" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-504" boardPos="-1e+06,-1e+06" objectName="WS2812-153" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-152: 
+Circuit Id: WS2812-103
+<item labelrot="0" x="-292" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="-5.5443873288720372e+303" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-103" y="-264" boardPos="-1e+06,-1e+06" objectName="WS2812-152" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-151: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-292" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-360" boardPos="-1e+06,-1e+06" objectName="WS2812-151" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-150: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-292" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-480" boardPos="-1e+06,-1e+06" objectName="WS2812-150" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-149: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-316" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-432" boardPos="-1e+06,-1e+06" objectName="WS2812-149" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-148: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-316" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-288" boardPos="-1e+06,-1e+06" objectName="WS2812-148" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-103: 
+Circuit Id: WS2812-103
+<item labelrot="0" x="-340" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="-5.5443873288720372e+303" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-103" y="-312" boardPos="-1e+06,-1e+06" objectName="WS2812-103" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-4: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-364" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-264" boardPos="-1e+06,-1e+06" objectName="WS2812-4" labelx="-16" valLabRot="0"/>
+
+Unique  Id: Arduino Nano-1: 
+Circuit Id: Arduino Nano-1
+<item labelrot="0" x="-588" Name="arduinoNano" varList=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," valLabely="0" circPos="0,0" boardRot="-1000000" labely="-21" hflip="1" rotation="0" circRot="25" Init_gdb="false" mainComp="false" Logic_Symbol="false" vflip="1" eeprom="255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255" Mhz="16" valLabelx="0" itemtype="Arduino" Show_id="false" id="Arduino Nano-1" y="-496" boardPos="-1e+06,-1e+06" objectName="Arduino Nano-1" Program=".pio/build/pro16MHzatmega328/firmware.hex" labelx="100" valLabRot="0" Auto_Load="true"/>
+
+Unique  Id: WS2812-6: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-364" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-288" boardPos="-1e+06,-1e+06" objectName="WS2812-6" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-32: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-364" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-312" boardPos="-1e+06,-1e+06" objectName="WS2812-32" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-34: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-364" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-336" boardPos="-1e+06,-1e+06" objectName="WS2812-34" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-35: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-364" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-384" boardPos="-1e+06,-1e+06" objectName="WS2812-35" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-36: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-364" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-360" boardPos="-1e+06,-1e+06" objectName="WS2812-36" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-42: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-364" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-408" boardPos="-1e+06,-1e+06" objectName="WS2812-42" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-43: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-364" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-456" boardPos="-1e+06,-1e+06" objectName="WS2812-43" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-44: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-340" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-504" boardPos="-1e+06,-1e+06" objectName="WS2812-44" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-45: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-364" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-432" boardPos="-1e+06,-1e+06" objectName="WS2812-45" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-46: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-364" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-504" boardPos="-1e+06,-1e+06" objectName="WS2812-46" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-47: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-364" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-90" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-480" boardPos="-1e+06,-1e+06" objectName="WS2812-47" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-59: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-340" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-480" boardPos="-1e+06,-1e+06" objectName="WS2812-59" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-61: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-340" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-456" boardPos="-1e+06,-1e+06" objectName="WS2812-61" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-62: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-340" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-432" boardPos="-1e+06,-1e+06" objectName="WS2812-62" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-66: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-340" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-408" boardPos="-1e+06,-1e+06" objectName="WS2812-66" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-67: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-340" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-360" boardPos="-1e+06,-1e+06" objectName="WS2812-67" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-68: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-340" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-384" boardPos="-1e+06,-1e+06" objectName="WS2812-68" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-69: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-340" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-336" boardPos="-1e+06,-1e+06" objectName="WS2812-69" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-124: 
+Circuit Id: WS2812-103
+<item labelrot="0" x="-340" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="-5.5443873288720372e+303" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-103" y="-264" boardPos="-1e+06,-1e+06" objectName="WS2812-124" labelx="-16" valLabRot="0"/>
+
+Unique  Id: WS2812-125: 
+Circuit Id: WS2812-4
+<item labelrot="0" x="-340" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="-270" circRot="0" Cols="1" mainComp="false" vflip="1" valLabelx="0" Rows="1" itemtype="WS2812" Show_id="false" id="WS2812-4" y="-288" boardPos="-1e+06,-1e+06" objectName="WS2812-125" labelx="-16" valLabRot="0"/>
+
+Unique  Id: Switch-374: 
+Circuit Id: Switch-374
+<item labelrot="0" x="-476" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="90" circRot="0" mainComp="false" Norm_Close="false" vflip="1" Poles="1" valLabelx="0" itemtype="Switch" Key="" Show_id="false" id="Switch-374" y="-428" boardPos="-1e+06,-1e+06" objectName="Switch-374" labelx="-16" DT="false" valLabRot="0"/>
+
+Unique  Id: SerialTerm-443: 
+Circuit Id: SerialTerm-443
+<item labelrot="0" x="-588" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" Mcu_Uart="1" sizey="249" mainComp="false" vflip="1" valLabelx="0" itemtype="SerialTerm" posy="281" Mcu_Id="Arduino Nano-1" Show_id="false" id="SerialTerm-443" y="-496" boardPos="-1e+06,-1e+06" objectName="SerialTerm-443" labelx="-16" sizex="549" valLabRot="0" posx="985"/>
+
+Unique  Id: Connector-31: 
+Circuit Id: Connector-31
+<item labelrot="0" x="-364" endpinid="WS2812-6-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-4-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-31" y="-276" boardPos="-1e+06,-1e+06" objectName="Connector-31" pointList="-364,-276,-364,-276" labelx="-16" enodeid="Circ_eNode-375" valLabRot="0"/>
+
+Unique  Id: Connector-33: 
+Circuit Id: Connector-33
+<item labelrot="0" x="-364" endpinid="WS2812-32-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-6-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-33" y="-300" boardPos="-1e+06,-1e+06" objectName="Connector-33" pointList="-364,-300,-364,-300" labelx="-16" enodeid="Circ_eNode-376" valLabRot="0"/>
+
+Unique  Id: Connector-37: 
+Circuit Id: Connector-31
+<item labelrot="0" x="-364" endpinid="WS2812-36-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-34-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-31" y="-348" boardPos="-1e+06,-1e+06" objectName="Connector-37" pointList="-364,-348,-364,-348" labelx="-16" enodeid="Circ_eNode-377" valLabRot="0"/>
+
+Unique  Id: Connector-39: 
+Circuit Id: Connector-33
+<item labelrot="0" x="-364" endpinid="WS2812-35-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-36-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-33" y="-372" boardPos="-1e+06,-1e+06" objectName="Connector-39" pointList="-364,-372,-364,-372" labelx="-16" enodeid="Circ_eNode-378" valLabRot="0"/>
+
+Unique  Id: Connector-41: 
+Circuit Id: Connector-41
+<item labelrot="0" x="-364" endpinid="WS2812-34-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-32-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-41" y="-324" boardPos="-1e+06,-1e+06" objectName="Connector-41" pointList="-364,-324,-364,-324" labelx="-16" enodeid="Circ_eNode-379" valLabRot="0"/>
+
+Unique  Id: Connector-48: 
+Circuit Id: Connector-41
+<item labelrot="0" x="-364" endpinid="WS2812-47-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-43-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-41" y="-468" boardPos="-1e+06,-1e+06" objectName="Connector-48" pointList="-364,-468,-364,-468" labelx="-16" enodeid="Circ_eNode-380" valLabRot="0"/>
+
+Unique  Id: Connector-50: 
+Circuit Id: Connector-33
+<item labelrot="0" x="-364" endpinid="WS2812-44-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-46-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-33" y="-516" boardPos="-1e+06,-1e+06" objectName="Connector-50" pointList="-364,-516,-340,-516" labelx="-16" enodeid="Circ_eNode-381" valLabRot="0"/>
+
+Unique  Id: Connector-52: 
+Circuit Id: Connector-31
+<item labelrot="0" x="-364" endpinid="WS2812-46-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-47-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-31" y="-492" boardPos="-1e+06,-1e+06" objectName="Connector-52" pointList="-364,-492,-364,-492" labelx="-16" enodeid="Circ_eNode-382" valLabRot="0"/>
+
+Unique  Id: Connector-54: 
+Circuit Id: Connector-31
+<item labelrot="0" x="-364" endpinid="WS2812-45-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-42-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-31" y="-420" boardPos="-1e+06,-1e+06" objectName="Connector-54" pointList="-364,-420,-364,-420" labelx="-16" enodeid="Circ_eNode-383" valLabRot="0"/>
+
+Unique  Id: Connector-56: 
+Circuit Id: Connector-33
+<item labelrot="0" x="-364" endpinid="WS2812-43-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-45-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-33" y="-444" boardPos="-1e+06,-1e+06" objectName="Connector-56" pointList="-364,-444,-364,-444" labelx="-16" enodeid="Circ_eNode-384" valLabRot="0"/>
+
+Unique  Id: Connector-58: 
+Circuit Id: Connector-58
+<item labelrot="0" x="-364" endpinid="WS2812-42-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-35-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-58" y="-396" boardPos="-1e+06,-1e+06" objectName="Connector-58" pointList="-364,-396,-364,-396" labelx="-16" enodeid="Circ_eNode-385" valLabRot="0"/>
+
+Unique  Id: Connector-60: 
+Circuit Id: Connector-60
+<item labelrot="0" x="-340" endpinid="WS2812-44-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-59-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-60" y="-492" boardPos="-1e+06,-1e+06" objectName="Connector-60" pointList="-340,-492,-340,-492" labelx="-16" enodeid="Circ_eNode-386" valLabRot="0"/>
+
+Unique  Id: Connector-63: 
+Circuit Id: Connector-60
+<item labelrot="0" x="-340" endpinid="WS2812-61-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-62-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-60" y="-444" boardPos="-1e+06,-1e+06" objectName="Connector-63" pointList="-340,-444,-340,-444" labelx="-16" enodeid="Circ_eNode-387" valLabRot="0"/>
+
+Unique  Id: Connector-65: 
+Circuit Id: Connector-65
+<item labelrot="0" x="-340" endpinid="WS2812-59-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-61-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-65" y="-468" boardPos="-1e+06,-1e+06" objectName="Connector-65" pointList="-340,-468,-340,-468" labelx="-16" enodeid="Circ_eNode-388" valLabRot="0"/>
+
+Unique  Id: Connector-70: 
+Circuit Id: Connector-60
+<item labelrot="0" x="-340" endpinid="WS2812-66-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-68-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-60" y="-396" boardPos="-1e+06,-1e+06" objectName="Connector-70" pointList="-340,-396,-340,-396" labelx="-16" enodeid="Circ_eNode-389" valLabRot="0"/>
+
+Unique  Id: Connector-72: 
+Circuit Id: Connector-60
+<item labelrot="0" x="-340" endpinid="WS2812-67-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-69-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-60" y="-348" boardPos="-1e+06,-1e+06" objectName="Connector-72" pointList="-340,-348,-340,-348" labelx="-16" enodeid="Circ_eNode-390" valLabRot="0"/>
+
+Unique  Id: Connector-74: 
+Circuit Id: Connector-65
+<item labelrot="0" x="-340" endpinid="WS2812-68-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-67-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-65" y="-372" boardPos="-1e+06,-1e+06" objectName="Connector-74" pointList="-340,-372,-340,-372" labelx="-16" enodeid="Circ_eNode-391" valLabRot="0"/>
+
+Unique  Id: Connector-76: 
+Circuit Id: Connector-76
+<item labelrot="0" x="-340" endpinid="WS2812-62-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-66-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-76" y="-420" boardPos="-1e+06,-1e+06" objectName="Connector-76" pointList="-340,-420,-340,-420" labelx="-16" enodeid="Circ_eNode-392" valLabRot="0"/>
+
+Unique  Id: Connector-104: 
+Circuit Id: Connector-104
+<item labelrot="0" x="-340" endpinid="WS2812-103-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-69-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-104" y="-324" boardPos="-1e+06,-1e+06" objectName="Connector-104" pointList="-340,-324,-340,-324" labelx="-16" enodeid="Circ_eNode-393" valLabRot="0"/>
+
+Unique  Id: Connector-127: 
+Circuit Id: Connector-104
+<item labelrot="0" x="-340" endpinid="WS2812-124-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-125-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-104" y="-276" boardPos="-1e+06,-1e+06" objectName="Connector-127" pointList="-340,-276,-340,-276" labelx="-16" enodeid="Circ_eNode-394" valLabRot="0"/>
+
+Unique  Id: Connector-129: 
+Circuit Id: Connector-129
+<item labelrot="0" x="-340" endpinid="WS2812-103-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-125-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-129" y="-300" boardPos="-1e+06,-1e+06" objectName="Connector-129" pointList="-340,-300,-340,-300" labelx="-16" enodeid="Circ_eNode-395" valLabRot="0"/>
+
+Unique  Id: Connector-170: 
+Circuit Id: Connector-104
+<item labelrot="0" x="-292" endpinid="WS2812-157-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-158-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-104" y="-324" boardPos="-1e+06,-1e+06" objectName="Connector-170" pointList="-292,-324,-292,-324" labelx="-16" enodeid="Circ_eNode-396" valLabRot="0"/>
+
+Unique  Id: Connector-172: 
+Circuit Id: Connector-65
+<item labelrot="0" x="-292" endpinid="WS2812-160-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-151-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-65" y="-372" boardPos="-1e+06,-1e+06" objectName="Connector-172" pointList="-292,-372,-292,-372" labelx="-16" enodeid="Circ_eNode-397" valLabRot="0"/>
+
+Unique  Id: Connector-174: 
+Circuit Id: Connector-60
+<item labelrot="0" x="-292" endpinid="WS2812-151-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-158-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-60" y="-348" boardPos="-1e+06,-1e+06" objectName="Connector-174" pointList="-292,-348,-292,-348" labelx="-16" enodeid="Circ_eNode-398" valLabRot="0"/>
+
+Unique  Id: Connector-176: 
+Circuit Id: Connector-65
+<item labelrot="0" x="-292" endpinid="WS2812-150-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-159-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-65" y="-468" boardPos="-1e+06,-1e+06" objectName="Connector-176" pointList="-292,-468,-292,-468" labelx="-16" enodeid="Circ_eNode-399" valLabRot="0"/>
+
+Unique  Id: Connector-178: 
+Circuit Id: Connector-33
+<item labelrot="0" x="-316" endpinid="WS2812-169-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-162-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-33" y="-372" boardPos="-1e+06,-1e+06" objectName="Connector-178" pointList="-316,-372,-316,-372" labelx="-16" enodeid="Circ_eNode-400" valLabRot="0"/>
+
+Unique  Id: Connector-180: 
+Circuit Id: Connector-60
+<item labelrot="0" x="-292" endpinid="WS2812-166-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-160-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-60" y="-396" boardPos="-1e+06,-1e+06" objectName="Connector-180" pointList="-292,-396,-292,-396" labelx="-16" enodeid="Circ_eNode-401" valLabRot="0"/>
+
+Unique  Id: Connector-182: 
+Circuit Id: Connector-33
+<item labelrot="0" x="-316" endpinid="WS2812-155-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-149-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-33" y="-444" boardPos="-1e+06,-1e+06" objectName="Connector-182" pointList="-316,-444,-316,-444" labelx="-16" enodeid="Circ_eNode-402" valLabRot="0"/>
+
+Unique  Id: Connector-184: 
+Circuit Id: Connector-58
+<item labelrot="0" x="-316" endpinid="WS2812-154-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-169-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-58" y="-396" boardPos="-1e+06,-1e+06" objectName="Connector-184" pointList="-316,-396,-316,-396" labelx="-16" enodeid="Circ_eNode-403" valLabRot="0"/>
+
+Unique  Id: Connector-186: 
+Circuit Id: Connector-60
+<item labelrot="0" x="-292" endpinid="WS2812-153-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-150-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-60" y="-492" boardPos="-1e+06,-1e+06" objectName="Connector-186" pointList="-292,-492,-292,-492" labelx="-16" enodeid="Circ_eNode-404" valLabRot="0"/>
+
+Unique  Id: Connector-188: 
+Circuit Id: Connector-60
+<item labelrot="0" x="-292" endpinid="WS2812-159-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-168-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-60" y="-444" boardPos="-1e+06,-1e+06" objectName="Connector-188" pointList="-292,-444,-292,-444" labelx="-16" enodeid="Circ_eNode-405" valLabRot="0"/>
+
+Unique  Id: Connector-190: 
+Circuit Id: Connector-33
+<item labelrot="0" x="-316" endpinid="WS2812-153-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-165-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-33" y="-516" boardPos="-1e+06,-1e+06" objectName="Connector-190" pointList="-316,-516,-292,-516" labelx="-16" enodeid="Circ_eNode-406" valLabRot="0"/>
+
+Unique  Id: Connector-192: 
+Circuit Id: Connector-104
+<item labelrot="0" x="-292" endpinid="WS2812-152-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-164-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-104" y="-276" boardPos="-1e+06,-1e+06" objectName="Connector-192" pointList="-292,-276,-292,-276" labelx="-16" enodeid="Circ_eNode-407" valLabRot="0"/>
+
+Unique  Id: Connector-194: 
+Circuit Id: Connector-129
+<item labelrot="0" x="-292" endpinid="WS2812-157-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-164-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-129" y="-300" boardPos="-1e+06,-1e+06" objectName="Connector-194" pointList="-292,-300,-292,-300" labelx="-16" enodeid="Circ_eNode-408" valLabRot="0"/>
+
+Unique  Id: Connector-196: 
+Circuit Id: Connector-76
+<item labelrot="0" x="-292" endpinid="WS2812-168-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-166-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-76" y="-420" boardPos="-1e+06,-1e+06" objectName="Connector-196" pointList="-292,-420,-292,-420" labelx="-16" enodeid="Circ_eNode-409" valLabRot="0"/>
+
+Unique  Id: Connector-198: 
+Circuit Id: Connector-41
+<item labelrot="0" x="-316" endpinid="WS2812-167-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-155-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-41" y="-468" boardPos="-1e+06,-1e+06" objectName="Connector-198" pointList="-316,-468,-316,-468" labelx="-16" enodeid="Circ_eNode-410" valLabRot="0"/>
+
+Unique  Id: Connector-200: 
+Circuit Id: Connector-33
+<item labelrot="0" x="-316" endpinid="WS2812-161-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-148-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-33" y="-300" boardPos="-1e+06,-1e+06" objectName="Connector-200" pointList="-316,-300,-316,-300" labelx="-16" enodeid="Circ_eNode-411" valLabRot="0"/>
+
+Unique  Id: Connector-202: 
+Circuit Id: Connector-31
+<item labelrot="0" x="-316" endpinid="WS2812-148-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-156-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-31" y="-276" boardPos="-1e+06,-1e+06" objectName="Connector-202" pointList="-316,-276,-316,-276" labelx="-16" enodeid="Circ_eNode-412" valLabRot="0"/>
+
+Unique  Id: Connector-204: 
+Circuit Id: Connector-31
+<item labelrot="0" x="-316" endpinid="WS2812-162-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-163-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-31" y="-348" boardPos="-1e+06,-1e+06" objectName="Connector-204" pointList="-316,-348,-316,-348" labelx="-16" enodeid="Circ_eNode-413" valLabRot="0"/>
+
+Unique  Id: Connector-206: 
+Circuit Id: Connector-31
+<item labelrot="0" x="-316" endpinid="WS2812-149-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-154-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-31" y="-420" boardPos="-1e+06,-1e+06" objectName="Connector-206" pointList="-316,-420,-316,-420" labelx="-16" enodeid="Circ_eNode-414" valLabRot="0"/>
+
+Unique  Id: Connector-208: 
+Circuit Id: Connector-31
+<item labelrot="0" x="-316" endpinid="WS2812-165-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-167-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-31" y="-492" boardPos="-1e+06,-1e+06" objectName="Connector-208" pointList="-316,-492,-316,-492" labelx="-16" enodeid="Circ_eNode-415" valLabRot="0"/>
+
+Unique  Id: Connector-210: 
+Circuit Id: Connector-41
+<item labelrot="0" x="-316" endpinid="WS2812-163-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-161-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-41" y="-324" boardPos="-1e+06,-1e+06" objectName="Connector-210" pointList="-316,-324,-316,-324" labelx="-16" enodeid="Circ_eNode-416" valLabRot="0"/>
+
+Unique  Id: Connector-235: 
+Circuit Id: Connector-104
+<item labelrot="0" x="-244" endpinid="WS2812-222-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-223-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-104" y="-324" boardPos="-1e+06,-1e+06" objectName="Connector-235" pointList="-244,-324,-244,-324" labelx="-16" enodeid="Circ_eNode-417" valLabRot="0"/>
+
+Unique  Id: Connector-237: 
+Circuit Id: Connector-65
+<item labelrot="0" x="-244" endpinid="WS2812-225-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-216-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-65" y="-372" boardPos="-1e+06,-1e+06" objectName="Connector-237" pointList="-244,-372,-244,-372" labelx="-16" enodeid="Circ_eNode-418" valLabRot="0"/>
+
+Unique  Id: Connector-239: 
+Circuit Id: Connector-60
+<item labelrot="0" x="-244" endpinid="WS2812-216-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-223-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-60" y="-348" boardPos="-1e+06,-1e+06" objectName="Connector-239" pointList="-244,-348,-244,-348" labelx="-16" enodeid="Circ_eNode-419" valLabRot="0"/>
+
+Unique  Id: Connector-241: 
+Circuit Id: Connector-65
+<item labelrot="0" x="-244" endpinid="WS2812-215-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-224-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-65" y="-468" boardPos="-1e+06,-1e+06" objectName="Connector-241" pointList="-244,-468,-244,-468" labelx="-16" enodeid="Circ_eNode-420" valLabRot="0"/>
+
+Unique  Id: Connector-243: 
+Circuit Id: Connector-33
+<item labelrot="0" x="-268" endpinid="WS2812-234-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-227-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-33" y="-372" boardPos="-1e+06,-1e+06" objectName="Connector-243" pointList="-268,-372,-268,-372" labelx="-16" enodeid="Circ_eNode-421" valLabRot="0"/>
+
+Unique  Id: Connector-245: 
+Circuit Id: Connector-60
+<item labelrot="0" x="-244" endpinid="WS2812-231-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-225-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-60" y="-396" boardPos="-1e+06,-1e+06" objectName="Connector-245" pointList="-244,-396,-244,-396" labelx="-16" enodeid="Circ_eNode-422" valLabRot="0"/>
+
+Unique  Id: Connector-247: 
+Circuit Id: Connector-33
+<item labelrot="0" x="-268" endpinid="WS2812-220-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-214-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-33" y="-444" boardPos="-1e+06,-1e+06" objectName="Connector-247" pointList="-268,-444,-268,-444" labelx="-16" enodeid="Circ_eNode-423" valLabRot="0"/>
+
+Unique  Id: Connector-249: 
+Circuit Id: Connector-58
+<item labelrot="0" x="-268" endpinid="WS2812-219-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-234-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-58" y="-396" boardPos="-1e+06,-1e+06" objectName="Connector-249" pointList="-268,-396,-268,-396" labelx="-16" enodeid="Circ_eNode-424" valLabRot="0"/>
+
+Unique  Id: Connector-251: 
+Circuit Id: Connector-60
+<item labelrot="0" x="-244" endpinid="WS2812-218-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-215-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-60" y="-492" boardPos="-1e+06,-1e+06" objectName="Connector-251" pointList="-244,-492,-244,-492" labelx="-16" enodeid="Circ_eNode-425" valLabRot="0"/>
+
+Unique  Id: Connector-253: 
+Circuit Id: Connector-60
+<item labelrot="0" x="-244" endpinid="WS2812-224-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-233-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-60" y="-444" boardPos="-1e+06,-1e+06" objectName="Connector-253" pointList="-244,-444,-244,-444" labelx="-16" enodeid="Circ_eNode-426" valLabRot="0"/>
+
+Unique  Id: Connector-255: 
+Circuit Id: Connector-33
+<item labelrot="0" x="-268" endpinid="WS2812-218-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-230-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-33" y="-516" boardPos="-1e+06,-1e+06" objectName="Connector-255" pointList="-268,-516,-244,-516" labelx="-16" enodeid="Circ_eNode-427" valLabRot="0"/>
+
+Unique  Id: Connector-257: 
+Circuit Id: Connector-104
+<item labelrot="0" x="-244" endpinid="WS2812-217-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-229-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-104" y="-276" boardPos="-1e+06,-1e+06" objectName="Connector-257" pointList="-244,-276,-244,-276" labelx="-16" enodeid="Circ_eNode-428" valLabRot="0"/>
+
+Unique  Id: Connector-259: 
+Circuit Id: Connector-129
+<item labelrot="0" x="-244" endpinid="WS2812-222-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-229-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-129" y="-300" boardPos="-1e+06,-1e+06" objectName="Connector-259" pointList="-244,-300,-244,-300" labelx="-16" enodeid="Circ_eNode-429" valLabRot="0"/>
+
+Unique  Id: Connector-261: 
+Circuit Id: Connector-76
+<item labelrot="0" x="-244" endpinid="WS2812-233-OutPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-231-InPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-76" y="-420" boardPos="-1e+06,-1e+06" objectName="Connector-261" pointList="-244,-420,-244,-420" labelx="-16" enodeid="Circ_eNode-430" valLabRot="0"/>
+
+Unique  Id: Connector-263: 
+Circuit Id: Connector-41
+<item labelrot="0" x="-268" endpinid="WS2812-232-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-220-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-41" y="-468" boardPos="-1e+06,-1e+06" objectName="Connector-263" pointList="-268,-468,-268,-468" labelx="-16" enodeid="Circ_eNode-431" valLabRot="0"/>
+
+Unique  Id: Connector-265: 
+Circuit Id: Connector-33
+<item labelrot="0" x="-268" endpinid="WS2812-226-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-213-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-33" y="-300" boardPos="-1e+06,-1e+06" objectName="Connector-265" pointList="-268,-300,-268,-300" labelx="-16" enodeid="Circ_eNode-432" valLabRot="0"/>
+
+Unique  Id: Connector-267: 
+Circuit Id: Connector-31
+<item labelrot="0" x="-268" endpinid="WS2812-213-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-221-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-31" y="-276" boardPos="-1e+06,-1e+06" objectName="Connector-267" pointList="-268,-276,-268,-276" labelx="-16" enodeid="Circ_eNode-433" valLabRot="0"/>
+
+Unique  Id: Connector-269: 
+Circuit Id: Connector-31
+<item labelrot="0" x="-268" endpinid="WS2812-227-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-228-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-31" y="-348" boardPos="-1e+06,-1e+06" objectName="Connector-269" pointList="-268,-348,-268,-348" labelx="-16" enodeid="Circ_eNode-434" valLabRot="0"/>
+
+Unique  Id: Connector-271: 
+Circuit Id: Connector-31
+<item labelrot="0" x="-268" endpinid="WS2812-214-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-219-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-31" y="-420" boardPos="-1e+06,-1e+06" objectName="Connector-271" pointList="-268,-420,-268,-420" labelx="-16" enodeid="Circ_eNode-435" valLabRot="0"/>
+
+Unique  Id: Connector-273: 
+Circuit Id: Connector-31
+<item labelrot="0" x="-268" endpinid="WS2812-230-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-232-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-31" y="-492" boardPos="-1e+06,-1e+06" objectName="Connector-273" pointList="-268,-492,-268,-492" labelx="-16" enodeid="Circ_eNode-436" valLabRot="0"/>
+
+Unique  Id: Connector-275: 
+Circuit Id: Connector-41
+<item labelrot="0" x="-268" endpinid="WS2812-228-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-226-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-41" y="-324" boardPos="-1e+06,-1e+06" objectName="Connector-275" pointList="-268,-324,-268,-324" labelx="-16" enodeid="Circ_eNode-437" valLabRot="0"/>
+
+Unique  Id: Connector-280: 
+Circuit Id: Connector-280
+<item labelrot="0" x="-340" endpinid="WS2812-156-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-124-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-280" y="-252" boardPos="-1e+06,-1e+06" objectName="Connector-280" pointList="-340,-252,-316,-252" labelx="-16" enodeid="Circ_eNode-438" valLabRot="0"/>
+
+Unique  Id: Connector-281: 
+Circuit Id: Connector-281
+<item labelrot="0" x="-292" endpinid="WS2812-221-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="WS2812-152-OutPin" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-281" y="-252" boardPos="-1e+06,-1e+06" objectName="Connector-281" pointList="-292,-252,-268,-252" labelx="-16" enodeid="Circ_eNode-439" valLabRot="0"/>
+
+Unique  Id: Connector-20: 
+Circuit Id: Connector-20
+<item labelrot="0" x="-580" endpinid="WS2812-4-InPin" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="Arduino Nano-1-PD2" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-20" y="-448" boardPos="-1e+06,-1e+06" objectName="Connector-20" pointList="-580,-448,-608,-448,-608,-260,-580,-260,-580,-252,-364,-252" labelx="-16" enodeid="Circ_eNode-440" valLabRot="0"/>
+
+Unique  Id: Connector-379: 
+Circuit Id: Connector-379
+<item labelrot="0" x="-532" endpinid="Switch-374-pinP0" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="Arduino Nano-1-GND1" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-379" y="-472" boardPos="-1e+06,-1e+06" objectName="Connector-379" pointList="-532,-472,-476,-472,-476,-444" labelx="-16" enodeid="Circ_eNode-441" valLabRot="0"/>
+
+Unique  Id: Connector-380: 
+Circuit Id: Connector-380
+<item labelrot="0" x="-476" endpinid="Arduino Nano-1-PB2" valLabely="0" circPos="0,0" boardRot="-1000000" labely="-24" hflip="1" rotation="0" circRot="0" mainComp="false" startpinid="Switch-374-switch0pinN" vflip="1" valLabelx="0" itemtype="Connector" Show_id="false" id="Connector-380" y="-412" boardPos="-1e+06,-1e+06" objectName="Connector-380" pointList="-476,-412,-476,-316,-596,-316,-596,-384,-580,-384" labelx="-16" enodeid="Circ_eNode-442" valLabRot="0"/>
+ 
+</circuit>
