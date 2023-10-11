@@ -1,7 +1,7 @@
 #include <NeoPixelBus.h>
 
-#define WT 6   //screen width in pixels
-#define HT 11  //screen height in pixels
+#define WT 7   //screen width in pixels
+#define HT 9   //screen height in pixels
 
 extern const RgbColor pal[];
 
