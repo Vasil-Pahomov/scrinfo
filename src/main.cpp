@@ -64,7 +64,8 @@ void show_random_neutral() {
       neighbours_man_hand_and_wink();
       break;
     default:
-    snow_show(60);
+    snow_show(30);
+    spring_show();
   }
 }
 
@@ -72,7 +73,7 @@ void loop() {
 
   /* dzyady series (Win-1251 encoding for text)
   candle_show(120);
-  ticker_run_text("ï¿½ï¿½ï¿½ï¿½ï¿½",text_pal[random(sizeof(text_pal))]);
+  ticker_run_text("ï¿½ï¿½ï¿½ï¿½ï¿½",text_pal[random(sizeof(text_pal))/sizeof(RgbColor)]);
   /**/
   /* halloween series
   stars_show(120, true);
@@ -87,13 +88,32 @@ void loop() {
       break;
   }
   if (random(2)) {
-    ticker_run_text("Happy",text_pal[random(sizeof(text_pal))]);
-    ticker_run_text("Halloween!",text_pal[random(sizeof(text_pal))]);
+    ticker_run_text("Happy",text_pal[random(sizeof(text_pal))/sizeof(RgbColor)]);
+    ticker_run_text("Halloween!",text_pal[random(sizeof(text_pal))/sizeof(RgbColor)]);
   }
   cls();
   /**/
 
-  show_random_neutral();
+  /* March 8 series 
+  if (random(2)) {
+    ticker_run_text("Ñ ÏÐÀÇÄÍÈÊÎÌ ÂÅÑÍÛ, ËÞÁÂÈ È Ñ×ÀÑÒÜß!",text_pal[random(sizeof(text_pal)/sizeof(RgbColor))]);
+  } else {
+    ticker_run_text("ÑÀ ÑÂßÒÀÌ ÂßÑÍÛ, ÊÀÕÀÍÍß ÄÛ ØÀÑÖß!",text_pal[random(sizeof(text_pal)/sizeof(RgbColor))]);
+  }
+
+  if (random(2)) {
+    heart_flash_red();
+  } else {
+    heart_flash_red();
+  }
+  spring_show();
+  if (random(2)) {
+    heart_flash_red();
+  } else {
+    heart_flash_red();
+  }
+  /**/
+
   /*
   for (int i=0;i<10;i++) {
     firewx_show();
@@ -101,13 +121,15 @@ void loop() {
   candle_show(60);
 
   if (random(2)) {
-    ticker_run_text("ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!",text_pal[random(sizeof(text_pal))]);
+    ticker_run_text("ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!",text_pal[random(sizeof(text_pal))/sizeof(RgbColor)]);
   } else {
-    ticker_run_text("ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì²!",text_pal[random(sizeof(text_pal))]);
+    ticker_run_text("ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì²!",text_pal[random(sizeof(text_pal))/sizeof(RgbColor)]);
   }
   cls();
   delay(2000);
   */
+
+   show_random_neutral();
   
   if (millis() > 4*3600000) {
     while (true) 

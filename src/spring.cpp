@@ -87,7 +87,7 @@ void spring_show()
                 for (int x=0;x<WT;x++) {
                     for (int y=0;y<HT;y++) {
                         int r = 10 * ((x-SPRING_FLOWER_X)*(x-SPRING_FLOWER_X) + (y-HT+SPRING_STEM_HEIGHT)*(y-HT+SPRING_STEM_HEIGHT));
-                        Serial.print(r);
+                        //Serial.print(r);
                         if (r <= flrad) {
                             set_pixel_color(x,y,flower_color);
                             //Serial.print("-*");
@@ -98,7 +98,7 @@ void spring_show()
                                 if (x == SPRING_FLOWER_X && y > (HT-SPRING_STEM_HEIGHT)) {
                                     //Serial.print('b');
                                     //поверх стебля смешивать
-                                    set_pixel_color(x,y,stem_color.LinearBlend(stem_color,flower_color,(float)dr/255.0));
+                                    set_pixel_color(x,y,stem_color.LinearBlend(stem_color,flower_color,(float)dr/255.0F));
                                 } else {
                                     //иначе просто рисовать
                                     set_pixel_color(x,y,flower_color.Dim(dr));

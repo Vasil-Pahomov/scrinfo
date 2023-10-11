@@ -71,7 +71,7 @@ void firewx_show() {
                 RgbColor c = RgbColor(0);
                 for (int i=0;i<FWX_NUM;i++) {
                     long r = (xs-fwx_x[i])*(xs-fwx_x[i]) + (ys-fwx_y[i])*(ys-fwx_y[i]);
-                    RgbColor c2 = (r<64) ? clr.Dim(max(255-r*4,0)) : RgbColor(0);
+                    RgbColor c2 = (r<64) ? clr.Dim(max((int)(255-r*4),0)) : RgbColor(0);
                     /*if (i==9) {
                         Serial.print('(');Serial.print(x);Serial.print(',');Serial.print(y);Serial.print(')');
                         Serial.print(r);Serial.print('-');Serial.print(c2.CalculateBrightness());Serial.print(' ');

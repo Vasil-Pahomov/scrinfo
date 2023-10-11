@@ -39,8 +39,8 @@ void flights_show(int durationSec) {
                 for (int i=0;i<flsNum;i++) {
                     long r = (xsc-x[i])*(xsc-x[i]) + (ysc-y[i])*(ysc-y[i]);
                     RgbColor c2 = lightmode 
-                                ? clr[i].Dim(max(255-r/2,0))
-                                : clr[i].Dim(min(4096/r,255));
+                                ? clr[i].Dim(max((int)(255-r/2),0))
+                                : clr[i].Dim(min((int)(4096/r),255));
                     /*if (i==0) {
                         Serial.print('(');Serial.print(xs);Serial.print(',');Serial.print(ys);Serial.print(')');
                         Serial.print(r);Serial.print('-');Serial.print(c2.CalculateBrightness());Serial.print(' ');
