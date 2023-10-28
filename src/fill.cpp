@@ -32,7 +32,7 @@ void fill_show(int durationSec) {
         byte mode = random(2); //mode
         byte spnt = random(4); //starting point
         if (mode == 1) {
-            if (random(2)) {
+            if (!random(1)) {
                 switch (dir) {
                     case 0:  // left
                         spnt = random(2)*3;

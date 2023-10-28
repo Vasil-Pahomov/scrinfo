@@ -1,11 +1,22 @@
 #include <NeoPixelBus.h>
 
-#define WT 7   //screen width in pixels
-#define HT 9   //screen height in pixels
+#define BRD_BEL 0
+#define BRD_POL 1
+#define BRD BRD_POL
 
-extern const RgbColor pal[];
+#if BRD == BRD_BEL
+#define WT 6    //screen width in pixels
+#define HT 11   //screen height in pixels
+#elif BRD == BRD_POL
+#define WT 8   //screen width in pixels
+#define HT 9   //screen height in pixels
+#endif
+
+extern const RgbColor pal[5];
 
 void global_setup();
+
+int inline pixind(int col,int row);
 
 void set_pixel_color(byte col, byte row, RgbColor clr);
 
@@ -29,9 +40,11 @@ void display_pic_buf(const byte* pic, byte darkenm, byte darkens, const RgbColor
 //displays a picture to the panel 
 void display_pic(const byte* pic, byte darkenm, byte darkens, const RgbColor* pal);
 
-
-//отображение двух картинок с заданной степенью "наложения"
+//display two pics with given "overlap" value (mix=0 -> pic1 is displayed, mix=255 -> pic2 is displayed)
 void display_mixed_pics(const byte* pic1, const RgbColor* pal1, const byte* pic2, const RgbColor* pal2, byte mix);
+
+//display two color buffers with given "overlap" value
+void display_mixed_bufs(const RgbColor* buf1, const RgbColor* buf2, byte mix);
 
 
 //отображение "бегущей строки" из битовой картинки

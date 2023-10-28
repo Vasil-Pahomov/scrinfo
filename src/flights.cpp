@@ -2,9 +2,12 @@
 
 #define FLS_SCALE 8
 #define FLS_MAX_NUM 3
-#define FLS_MAX_SPEED 8
+#define FLS_MAX_SPEED 4
+#define FLS_SPEED_CHANGE_DIVIDER 4
 
 void flights_show(int durationSec) {
+
+    unsigned long lastms;
 
     int x[FLS_MAX_NUM], y[FLS_MAX_NUM], xs[FLS_MAX_NUM], ys[FLS_MAX_NUM],
         xc[FLS_MAX_NUM], yc[FLS_MAX_NUM], xcs[FLS_MAX_NUM], ycs[FLS_MAX_NUM];
@@ -30,6 +33,8 @@ void flights_show(int durationSec) {
 
     byte lightmode = random(2);
     unsigned long endms = millis() + 1000L * durationSec;
+    int tct = 0;
+
     while (millis() < endms) {
 
         for (short xi=0;xi<WT;xi++) {
@@ -55,20 +60,27 @@ void flights_show(int durationSec) {
         }
 
         bus_show();
-        delay(50);
         
+        while ((millis() - lastms) < 20) {digitalWrite(LED_BUILTIN, HIGH); };
+        digitalWrite(LED_BUILTIN, LOW);
+        lastms = millis();
+
         for (int i=0;i<flsNum;i++) {
+
             x[i] += xs[i];
             y[i] += ys[i];
-            if (x[i] > xc[i]) {
-                if (xs[i] > -FLS_MAX_SPEED) xs[i]--;
-            } else { 
-                if (xs[i] < FLS_MAX_SPEED) xs[i]++;
-            }
-            if (y[i] > yc[i]) {
-                if (ys[i] > -FLS_MAX_SPEED) ys[i]--;
-            } else { 
-                if (ys[i] < FLS_MAX_SPEED) ys[i]++;
+
+            if (tct == 0) {
+                if (x[i] > xc[i]) {
+                    if (xs[i] > -FLS_MAX_SPEED) xs[i]--;
+                } else { 
+                    if (xs[i] < FLS_MAX_SPEED) xs[i]++;
+                }
+                if (y[i] > yc[i]) {
+                    if (ys[i] > -FLS_MAX_SPEED) ys[i]--;
+                } else { 
+                    if (ys[i] < FLS_MAX_SPEED) ys[i]++;
+                }
             }
             
             xc[i] += xcs[i];
@@ -79,5 +91,7 @@ void flights_show(int durationSec) {
             if (yc[i] > (HT-1)*FLS_SCALE) { ycs[i] = -abs(ycs[i]); }
             
         }
+        tct++; 
+        if (tct > FLS_SPEED_CHANGE_DIVIDER) tct = 0;
     }
 }

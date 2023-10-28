@@ -32,46 +32,46 @@ void setup() {
   global_setup();
   Serial.begin(115200);
   pinMode(10, INPUT_PULLUP);
+  pinMode(LED_BUILTIN, OUTPUT);
 
 }
 
 void show_random_neutral() {
-  switch (random(10)) {
+  switch (random(5)) {
     case 0:
+      Serial.println("fill");
       fill_show(60);
       break;
     case 1:
+      Serial.println("flights");
       flights_show(60);
       break;
     case 2:
       rain_show(60);
+      Serial.println("rain");
       break;
     case 3:
-      switch(random(2)) {
-        case 0:
-          heart_flash_white();
-          cls();
-          break;
-        case 1:
-          heart_flash_red();
-          break;
-      }
+      heart_flash_br();
       break;
     case 4:
-      neighbours_run();
-      break;
-    case 5:
-      neighbours_man_hand_and_wink();
+      Serial.println("firewx");
+      for (int i=0;i<10;i++) {
+        candle_show(60);
+      }
       break;
     default:
-    snow_show(30);
-    spring_show();
+      cls();
+      Serial.println("stars-rn");
+      stars_show(60, true);
+      break;
   }
 }
 
+/*  (Win-1251 encoding for text) */
 void loop() {
 
-  /* dzyady series (Win-1251 encoding for text)
+
+  /* dzyady series
   candle_show(120);
   ticker_run_text("ï¿½ï¿½ï¿½ï¿½ï¿½",text_pal[random(sizeof(text_pal))/sizeof(RgbColor)]);
   /**/
@@ -96,9 +96,9 @@ void loop() {
 
   /* March 8 series 
   if (random(2)) {
-    ticker_run_text("Ñ ÏÐÀÇÄÍÈÊÎÌ ÂÅÑÍÛ, ËÞÁÂÈ È Ñ×ÀÑÒÜß!",text_pal[random(sizeof(text_pal)/sizeof(RgbColor))]);
+    ticker_run_text("ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!",text_pal[random(sizeof(text_pal)/sizeof(RgbColor))]);
   } else {
-    ticker_run_text("ÑÀ ÑÂßÒÀÌ ÂßÑÍÛ, ÊÀÕÀÍÍß ÄÛ ØÀÑÖß!",text_pal[random(sizeof(text_pal)/sizeof(RgbColor))]);
+    ticker_run_text("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½!",text_pal[random(sizeof(text_pal)/sizeof(RgbColor))]);
   }
 
   if (random(2)) {
@@ -129,12 +129,17 @@ void loop() {
   delay(2000);
   */
 
-   show_random_neutral();
+  ticker_run_text("Happy Halloween!", RgbColor(255,255,255));
+
+  halloween_faces();
+
+  show_random_neutral();
   
-  if (millis() > 4*3600000) {
+  if (millis() > 5*3600000) {
     while (true) 
     {
       //candle_show(120);
+      Serial.println("stars-to");
       stars_show(3600, true);
     }
   }

@@ -3,7 +3,7 @@
 
 NeoPixelBus<NeoGrbFeature,Neo800KbpsMethod> * bus;
 
-const RgbColor pal[] = {
+const RgbColor pal[5] = {
 {0,0,0},      //0 - black 
 {192,192,192},//1 - white
 {255,0,0},    //2 - red
@@ -12,7 +12,11 @@ const RgbColor pal[] = {
 };
 
 int inline pixind(int col,int row) {
+  #if BRD == BRD_BEL
     return (col % 2) ? (row + col * HT) : ((HT - row) + col * HT - 1);
+  #elif BRD == BRD_POL
+    return !(col % 2) ? (row + (WT - 1 - col) * HT) : ((HT - row) + (WT - 1 - col) * HT - 1);
+  #endif
 }
 
 void global_setup() {

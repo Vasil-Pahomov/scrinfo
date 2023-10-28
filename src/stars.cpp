@@ -22,6 +22,7 @@ byte lvls[]={0, 8, 16, 32, 64, 128, 255};
 
 void stars_show(int durationSec, bool useRandomColors) {
 
+    cls();
     unsigned long endms = millis() + 1000L * durationSec;
 
     while (millis() < endms)

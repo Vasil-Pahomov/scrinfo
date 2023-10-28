@@ -1,5 +1,5 @@
-//white, red, white flashing hearts in a row
-void heart_flash_brb();
+//white and red flashing hearts in a row
+void heart_flash_br();
 
 //white heart with fading
 void heart_flash_white();

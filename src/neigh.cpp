@@ -19,7 +19,7 @@ const RgbColor neigh_pal[] = {
 };
 
 const byte neigh_m_norm[WT*HT] PROGMEM = {
-#if HT == 11
+#if BRD == BRD_BEL
 0, 0, 1, 1, 0, 0,
 0, 0, 1, 1, 0, 0,
 0, 0, 0, 0, 0, 0,
@@ -31,7 +31,7 @@ const byte neigh_m_norm[WT*HT] PROGMEM = {
 0, 1, 0, 0, 1, 0,
 0, 1, 0, 0, 1, 0,
 1, 1, 0, 0, 1, 1,
-#elif HT == 9
+#elif BRD == BRD_POL
 0, 0, 1, 1, 0, 0,
 0, 0, 1, 1, 0, 0,
 0, 0, 0, 0, 0, 0,
@@ -47,7 +47,7 @@ const byte neigh_m_norm[WT*HT] PROGMEM = {
 };
 
 const byte neigh_m_hand[WT*HT] PROGMEM = {
-#if HT == 11
+#if BRD == BRD_BEL
 0, 0, 1, 1, 0, 0,
 1, 0, 1, 1, 0, 0,
 1, 0, 0, 0, 0, 0,
@@ -59,7 +59,7 @@ const byte neigh_m_hand[WT*HT] PROGMEM = {
 0, 1, 0, 0, 1, 0,
 0, 1, 0, 0, 1, 0,
 1, 1, 0, 0, 1, 1,
-#elif HT == 9
+#elif BRD == BRD_POL
 0, 0, 1, 1, 0, 0,
 1, 0, 1, 1, 0, 0,
 1, 0, 0, 0, 0, 0,
@@ -75,7 +75,7 @@ const byte neigh_m_hand[WT*HT] PROGMEM = {
 };
 
 const byte neigh_m_zoom[WT*HT] PROGMEM = {
-#if HT == 11
+#if BRD == BRD_BEL
 0, 0, 0, 0, 0, 0,
 0, 1, 1, 1, 1, 0,
 0, 1, 1, 1, 1, 0,
@@ -87,7 +87,7 @@ const byte neigh_m_zoom[WT*HT] PROGMEM = {
 0, 2, 2, 2, 2, 0,
 0, 2, 2, 2, 2, 0,
 0, 2, 2, 2, 2, 0,
-#elif HT == 9
+#elif BRD == BRD_POL
 0, 0, 0, 0, 0, 0,
 0, 1, 1, 1, 1, 0,
 0, 1, 1, 1, 1, 0,
@@ -103,7 +103,7 @@ const byte neigh_m_zoom[WT*HT] PROGMEM = {
 };
 
 const byte neigh_m_face_norm[WT*HT] PROGMEM = {
-#if HT == 11
+#if BRD == BRD_BEL
 0, 0, 0, 0, 0, 0,
 0, 1, 1, 1, 1, 0,
 1, 0, 0, 0, 0, 1,
@@ -115,7 +115,7 @@ const byte neigh_m_face_norm[WT*HT] PROGMEM = {
 0, 1, 1, 1, 1, 0,
 0, 0, 0, 0, 0, 0,
 0, 0, 0, 0, 0, 0,
-#elif HT == 9
+#elif BRD == BRD_POL
 0, 0, 0, 0, 0, 0,
 0, 1, 1, 1, 1, 0,
 1, 0, 0, 0, 0, 1,
@@ -131,7 +131,7 @@ const byte neigh_m_face_norm[WT*HT] PROGMEM = {
 };
 
 const byte neigh_m_face_wink[WT*HT] PROGMEM = {
-#if HT == 11
+#if BRD == BRD_BEL
 0, 0, 0, 0, 0, 0,
 0, 1, 1, 1, 1, 0,
 1, 0, 0, 0, 0, 1,
@@ -143,7 +143,7 @@ const byte neigh_m_face_wink[WT*HT] PROGMEM = {
 0, 1, 1, 1, 1, 0,
 0, 0, 0, 0, 0, 0,
 0, 0, 0, 0, 0, 0,
-#elif HT == 9
+#elif BRD == BRD_POL
 0, 0, 0, 0, 0, 0,
 0, 1, 1, 1, 1, 0,
 1, 0, 0, 0, 0, 1,
@@ -159,7 +159,7 @@ const byte neigh_m_face_wink[WT*HT] PROGMEM = {
 };
 
 const byte neigh_m_face_smile[WT*HT] PROGMEM = {
-#if HT == 11
+#if BRD == BRD_BEL
 0, 0, 0, 0, 0, 0,
 0, 1, 1, 1, 1, 0,
 1, 0, 0, 0, 0, 1,
@@ -171,7 +171,7 @@ const byte neigh_m_face_smile[WT*HT] PROGMEM = {
 0, 1, 1, 1, 1, 0,
 0, 0, 0, 0, 0, 0,
 0, 0, 0, 0, 0, 0,
-#elif HT == 9
+#elif BRD == BRD_POL
 0, 0, 0, 0, 0, 0,
 0, 1, 1, 1, 1, 0,
 1, 0, 0, 0, 0, 1,
@@ -187,7 +187,7 @@ const byte neigh_m_face_smile[WT*HT] PROGMEM = {
 };
 
 const byte neigh_w_norm[WT*HT] PROGMEM = {
-#if HT == 11
+#if BRD == BRD_BEL
 0, 0, 5, 5, 0, 0,
 0, 5, 1, 1, 5, 0,
 0, 5, 1, 1, 5, 0,
@@ -199,7 +199,7 @@ const byte neigh_w_norm[WT*HT] PROGMEM = {
 2, 2, 2, 2, 2, 2,
 0, 1, 0, 0, 1, 0,
 1, 1, 0, 0, 1, 1,
-#elif HT == 9
+#elif BRD == BRD_POL
 0, 0, 5, 5, 0, 0,
 0, 5, 1, 1, 5, 0,
 0, 5, 1, 1, 5, 0,
@@ -215,7 +215,7 @@ const byte neigh_w_norm[WT*HT] PROGMEM = {
 };
 
 const byte neigh_w_hand[WT*HT] PROGMEM = {
-#if HT == 11
+#if BRD == BRD_BEL
 0, 0, 5, 5, 0, 0,
 1, 5, 1, 1, 5, 0,
 1, 5, 1, 1, 5, 0,
@@ -227,7 +227,7 @@ const byte neigh_w_hand[WT*HT] PROGMEM = {
 2, 2, 2, 2, 2, 2,
 0, 1, 0, 0, 1, 0,
 1, 1, 0, 0, 1, 1,
-#elif HT == 9
+#elif BRD == BRD_POL
 0, 0, 5, 5, 0, 0,
 1, 5, 1, 1, 5, 0,
 1, 5, 1, 1, 5, 0,
@@ -243,7 +243,7 @@ const byte neigh_w_hand[WT*HT] PROGMEM = {
 };
 
 const byte neigh_w_zoom[WT*HT] PROGMEM = {
-#if HT == 11
+#if BRD == BRD_BEL
 0, 0, 5, 5, 0, 0,
 0, 5, 1, 1, 5, 0,
 0, 5, 1, 1, 5, 0,
@@ -255,7 +255,7 @@ const byte neigh_w_zoom[WT*HT] PROGMEM = {
 0, 2, 2, 2, 2, 0,
 2, 2, 2, 2, 2, 2,
 2, 2, 2, 2, 2, 2,
-#elif HT == 9
+#elif BRD == BRD_POL
 0, 0, 5, 5, 0, 0,
 0, 5, 1, 1, 5, 0,
 0, 5, 1, 1, 5, 0,
@@ -271,7 +271,7 @@ const byte neigh_w_zoom[WT*HT] PROGMEM = {
 };
 
 const byte neigh_w_face_norm[WT*HT] PROGMEM = {
-#if HT == 11
+#if BRD == BRD_BEL
 0, 0, 0, 0, 0, 0,
 0, 5, 5, 5, 5, 0,
 5, 5, 5, 5, 5, 5,
@@ -283,7 +283,7 @@ const byte neigh_w_face_norm[WT*HT] PROGMEM = {
 5, 0, 0, 0, 0, 5,
 0, 0, 0, 0, 0, 0,
 0, 0, 0, 0, 0, 0,
-#elif HT == 9
+#elif BRD == BRD_POL
 0, 0, 0, 0, 0, 0,
 0, 5, 5, 5, 5, 0,
 5, 5, 5, 5, 5, 5,
@@ -299,7 +299,7 @@ const byte neigh_w_face_norm[WT*HT] PROGMEM = {
 };
 
 const byte neigh_w_face_wink[WT*HT] PROGMEM = {
-#if HT == 11
+#if BRD == BRD_BEL
 0, 0, 0, 0, 0, 0,
 0, 5, 5, 5, 5, 0,
 5, 5, 5, 5, 5, 5,
@@ -311,7 +311,7 @@ const byte neigh_w_face_wink[WT*HT] PROGMEM = {
 5, 0, 0, 0, 0, 5,
 0, 0, 0, 0, 0, 0,
 0, 0, 0, 0, 0, 0,
-#elif HT == 9
+#elif BRD == BRD_POL
 0, 0, 0, 0, 0, 0,
 0, 5, 5, 5, 5, 0,
 5, 5, 5, 5, 5, 5,
@@ -327,7 +327,7 @@ const byte neigh_w_face_wink[WT*HT] PROGMEM = {
 };
 
 const byte neigh_w_face_smile[WT*HT] PROGMEM = {
-#if HT == 11
+#if BRD == BRD_BEL
 0, 0, 0, 0, 0, 0,
 0, 5, 5, 5, 5, 0,
 5, 5, 5, 5, 5, 5,
@@ -339,7 +339,7 @@ const byte neigh_w_face_smile[WT*HT] PROGMEM = {
 5, 0, 0, 0, 0, 5,
 0, 0, 0, 0, 0, 0,
 0, 0, 0, 0, 0, 0,
-#elif HT == 9
+#elif BRD == BRD_POL
 0, 0, 0, 0, 0, 0,
 0, 5, 5, 5, 5, 0,
 5, 5, 5, 5, 5, 5,
