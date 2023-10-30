@@ -1,7 +1,13 @@
 #include <NeoPixelBus.h>
 #include "global.h"
 
-NeoPixelBus<NeoGrbFeature,Neo800KbpsMethod> * bus;
+#if defined(ESP8266)
+#define NP_METHOD NeoEsp8266Uart1800KbpsMethod
+#else 
+#define NP_METHOD Neo800KbpsMethod
+#endif
+
+NeoPixelBus<NeoGrbFeature, NP_METHOD> * bus;
 
 const RgbColor pal[5] = {
 {0,0,0},      //0 - black 
@@ -16,11 +22,13 @@ int inline pixind(int col,int row) {
     return (col % 2) ? (row + col * HT) : ((HT - row) + col * HT - 1);
   #elif BRD == BRD_POL
     return !(col % 2) ? (row + (WT - 1 - col) * HT) : ((HT - row) + (WT - 1 - col) * HT - 1);
+  #else 
+    return row + col * HT;
   #endif
 }
 
 void global_setup() {
-  bus = new NeoPixelBus<NeoGrbFeature,Neo800KbpsMethod> (WT*HT, 2);
+  bus = new NeoPixelBus<NeoGrbFeature,NP_METHOD> (WT*HT, 2);
   bus->Begin();
 }
 
@@ -153,4 +161,14 @@ RgbColor color_multi(RgbColor c, int factor) {
   cr.G = min((int)c.G * factor, (int)255);
   cr.B = min((int)c.B * factor, (int)255);  
   return cr;
+}
+
+unsigned long wait_start_msec;
+
+void wait_start() {
+  wait_start_msec = millis();
+}
+
+void wait(int msec) {
+  while (millis() < (wait_start_msec + msec)) delay(1);
 }

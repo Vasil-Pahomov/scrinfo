@@ -46,7 +46,6 @@ void display_mixed_pics(const byte* pic1, const RgbColor* pal1, const byte* pic2
 //display two color buffers with given "overlap" value
 void display_mixed_bufs(const RgbColor* buf1, const RgbColor* buf2, byte mix);
 
-
 //отображение "бегущей строки" из битовой картинки
 void runad(const byte* ad, int adwt, int adwb, RgbColor col);
 
@@ -58,3 +57,10 @@ RgbColor color_multi(RgbColor c, int factor);
 
 //расчёт разницы между цветами после нормализации максимального уровня к 255; -1 если цвета полностью идентичны
 int color_diff_norm(RgbColor c1, RgbColor c2);
+
+//start waiting timer
+void wait_start();
+
+//wait for given time since last wait_start call
+void wait(int msec);
+

@@ -31,37 +31,27 @@ void setup() {
   randomSeed(analogRead(0)*analogRead(1));
   global_setup();
   Serial.begin(115200);
-  pinMode(10, INPUT_PULLUP);
-  pinMode(LED_BUILTIN, OUTPUT);
-
 }
 
 void show_random_neutral() {
   switch (random(5)) {
     case 0:
-      Serial.println("fill");
       fill_show(60);
       break;
     case 1:
-      Serial.println("flights");
       flights_show(60);
       break;
     case 2:
       rain_show(60);
-      Serial.println("rain");
       break;
     case 3:
       heart_flash_br();
       break;
     case 4:
-      Serial.println("firewx");
-      for (int i=0;i<10;i++) {
-        candle_show(60);
-      }
+      candle_show(60);
       break;
     default:
       cls();
-      Serial.println("stars-rn");
       stars_show(60, true);
       break;
   }
@@ -69,7 +59,6 @@ void show_random_neutral() {
 
 /*  (Win-1251 encoding for text) */
 void loop() {
-
 
   /* dzyady series
   candle_show(120);
@@ -129,17 +118,14 @@ void loop() {
   delay(2000);
   */
 
-  ticker_run_text("Happy Halloween!", RgbColor(255,255,255));
-
   halloween_faces();
 
   show_random_neutral();
-  
+
   if (millis() > 5*3600000) {
     while (true) 
     {
       //candle_show(120);
-      Serial.println("stars-to");
       stars_show(3600, true);
     }
   }

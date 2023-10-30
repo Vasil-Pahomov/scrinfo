@@ -115,17 +115,21 @@ const RgbColor pal_hlw[] = {
 
 void halloween_faces()
 {
-  const int step = 5;
+  const int step = 10;
   //halloween faces
 
   switch (random(2)) {
     case 0:
       for (int i=0;i<10;i++) {
         for (int m=0;m<255;m+=step) {
+          wait_start();
           display_mixed_pics(hlw2_1,pal,hlw2_2,pal,m);
+          wait(20);
         }
         for (int m=0;m<255;m+=step) {
+          wait_start();
           display_mixed_pics(hlw2_2,pal,hlw2_1,pal,m);
+          wait(20);
         }
         display_pic(hlw2_1, 0, 0, pal);
         delay(500);
@@ -134,10 +138,14 @@ void halloween_faces()
     case 1:
       for (int i=0;i<10;i++) {
         for (int m=0;m<255;m+=step) {
+          wait_start();
           display_mixed_pics(hlw_1,pal_hlw,hlw_2,pal_hlw,m);
+          wait(20);
         }
         for (int m=0;m<255;m+=step) {
+          wait_start();
           display_mixed_pics(hlw_2,pal_hlw,hlw_1,pal_hlw,m);
+          wait(20);
         }
         display_pic(hlw_1, 0, 0, pal_hlw);
         delay(500);
@@ -147,7 +155,7 @@ void halloween_faces()
     break;
   }
   cls();
-  ticker_run_text("HAPPY HALLOWEEN", pal[1+random(sizeof(pal)/sizeof(RgbColor)-1)]);
+  ticker_run_text("HAPPY HALLOWEEN!", pal[1+random(sizeof(pal)/sizeof(RgbColor)-1)]);
   cls();
   delay(500);
 }

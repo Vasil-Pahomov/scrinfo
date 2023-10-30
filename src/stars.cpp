@@ -45,7 +45,6 @@ void stars_show(int durationSec, bool useRandomColors) {
                         star_y[i] = random(HT);
                         if (get_pixel_color(star_x[i], star_y[i]).CalculateBrightness() == 0) break;
                     }
-                    digitalWrite(LED_BUILTIN,LOW);
                     if (useRandomColors) {
                         do {
                             star_color[i] = RgbColor(lvls[random(sizeof(lvls))], lvls[random(sizeof(lvls))], lvls[random(sizeof(lvls))]);
@@ -57,6 +56,7 @@ void stars_show(int durationSec, bool useRandomColors) {
             }
         }
         bus_show();
+
         delay(10);
     }
     cls();
