@@ -101,11 +101,21 @@ void runad(const byte* ad, int adwt, int adwb, RgbColor clr) {
 }
 
 void set_pixel_color(byte col, byte row, RgbColor clr) {
+#if BRD == BRD_POL
+  bus->SetPixelColor(pixind(col,row),RgbColor(clr.R, clr.G/2, clr.B/2));
+#else
   bus->SetPixelColor(pixind(col,row), clr);
+#endif
 }
 
 RgbColor get_pixel_color(byte col, byte row) {
+#if BRD == BRD_POL
+  //todo: think about removing this dirty hack 
+  RgbColor c = bus->GetPixelColor(pixind(col,row));
+  return RgbColor(c.R, c.G*2, c.B*2);
+#else
   return bus->GetPixelColor(pixind(col,row));
+#endif
 }
 
 void fade_buffer(uint8_t coef) {
@@ -134,12 +144,12 @@ void bus_show() {
 int color_diff_norm(RgbColor c1, RgbColor c2) {
   if (c1==c2) return -1;
 
-  int c1max = max(c1.R, max(c1.G, c1.B));
+  int c1max = max(c1.R, max(c1.G, c1.B)) + 1;
   c1.R = (int)c1.R * (int)255 / c1max;
   c1.G = (int)c1.G * (int)255 / c1max;
   c1.B = (int)c1.B * (int)255 / c1max;
 
-  int c2max = max(c2.R, max(c2.G, c2.B));
+  int c2max = max(c2.R, max(c2.G, c2.B)) + 1;
   c2.R = (int)c2.R * (int)255 / c2max;
   c2.G = (int)c2.G * (int)255 / c2max;
   c2.B = (int)c2.B * (int)255 / c2max;

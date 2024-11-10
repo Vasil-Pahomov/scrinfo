@@ -11,7 +11,7 @@ byte snow_x[SNOWFLAKES];
 byte snow_y[SNOWFLAKES];
 
 RgbColor snowflake_color(255);
-RgbColor snow_color(128,128,255);
+RgbColor snow_color(128,128,254);
 
 void snow_show(int durationSec)
 {
@@ -19,7 +19,8 @@ void snow_show(int durationSec)
         snow_x[i] = 255; //все снежинки неактивны
         snow_y[i] = 255;
     }
-    
+    cls();
+
     unsigned long endms = millis() + 1000L * durationSec;
     while (millis() < endms)
     {
@@ -28,7 +29,7 @@ void snow_show(int durationSec)
                 if (snow_y[i] != 255) { //стираем предыдущее положение снежинки
                     set_pixel_color(snow_x[i], snow_y[i], RgbColor(0));
                 }
-                if (snow_y[i] >= HT-1 || get_pixel_color(snow_x[i], snow_y[i]+1) == snow_color) { // снежинка достигла "земли"?
+                if (snow_y[i] >= HT-1 || get_pixel_color(snow_x[i], snow_y[i]+1) == snow_color) { // снежинка достигла "земли"?                    
                     //может ли снежинка "скатиться" влево или вправо?
                     bool canFallLeft = (snow_y[i] < HT-2) && (snow_x[i] > 0) && (get_pixel_color(snow_x[i]-1, snow_y[i]+2) != snow_color);
                     bool canFallRight = (snow_y[i] < HT-2) && (snow_x[i] < WT-1) && (get_pixel_color(snow_x[i]+1, snow_y[i]+2) != snow_color);
@@ -58,12 +59,12 @@ void snow_show(int durationSec)
         }
         if (i>=WT) {
             for (i=0;i<WT;i++) {
-                for (int j=HT-2;j>0;j--) {
-                    if (get_pixel_color(i,j) != snow_color) {
-                        set_pixel_color(i,j+1,RgbColor(0));
-                        break;
-                    }
+                int j=HT-2;
+                while (j>0) {
+                    if (get_pixel_color(i,j) != snow_color) break;
+                    j--;
                 }
+                set_pixel_color(i,j+1,RgbColor(0));
             }
         }
         if ((millis() < (endms - 3000)) && !random(SNOWFLAKE_APPEAR_PROB)) { //появляется новая снежинка
@@ -78,3 +79,4 @@ void snow_show(int durationSec)
         delay(SNOWFLAKE_STEP_PAUSE);
     }
 }
+

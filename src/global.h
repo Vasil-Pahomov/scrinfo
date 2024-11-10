@@ -1,8 +1,7 @@
 #include <NeoPixelBus.h>
 
-#define BRD_BEL 0
-#define BRD_POL 1
-#define BRD BRD_POL
+#define BRD_BEL 1
+#define BRD_POL 2
 
 #if BRD == BRD_BEL
 #define WT 6    //screen width in pixels

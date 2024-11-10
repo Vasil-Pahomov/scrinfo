@@ -21,6 +21,23 @@
   };
   #define CANDLE_FLAME_MAXY 4*CANDLE_SCALE
   #define CANDLE_FLAME_MINY 1*CANDLE_SCALE
+#else
+  const byte candle_base[WT*HT] PROGMEM = {
+    0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0,
+    1, 1, 1, 1, 1, 1,
+    1, 1, 1, 1, 1, 1,
+    1, 1, 1, 1, 1, 1,
+    1, 1, 1, 1, 1, 1,
+    1, 1, 1, 1, 1, 1,
+    1, 1, 1, 1, 1, 1,
+  };
+  #define CANDLE_FLAME_MAXY 4*CANDLE_SCALE
+  #define CANDLE_FLAME_MINY 1*CANDLE_SCALE
+
 #endif
 
 
@@ -62,12 +79,12 @@ void candle_show(int durationSecs)
                     long r = (xsc-x[i])*(xsc-x[i]) + (ysc-y[i])*(ysc-y[i]);
                     RgbColor c2 = clr[i].Dim(max((int)(255-r),0)); 
 
-                    int radd = max(0, c.G + c2.G - 255) + max(0, c.B + c2.B - 255);
-                    int gadd = max(0, c.R + c2.R - 255) + max(0, c.B + c2.B - 255);
+                    int radd = max(0, c.G + c2.G - 255) + max(0, c.B + c2.B - 100);
+                    int gadd = max(0, c.R + c2.R - 255) + max(0, c.B + c2.B - 100);
                     int badd = max(0, c.R + c2.R - 255) + max(0, c.G + c2.G - 255);
                     c.R = min(c.R + c2.R + radd, 255);
                     c.G = min(c.G + c2.G + gadd, 255);
-                    c.B = min(c.B + c2.B + badd, 255);
+                    c.B = min(c.B + c2.B + badd, 100);
                 }
                 set_pixel_color(xi,yi,c);
             }

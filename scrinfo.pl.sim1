@@ -1,0 +1,303 @@
+<circuit version="1.1.0-RC0" rev="1909" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="WS2812" CircId="WS2812-625" mainComp="false" Show_id="false" Show_Val="false" Pos="-436,-444" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-554" mainComp="false" Show_id="false" Show_Val="false" Pos="-412,-492" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-220" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-516" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-32" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-372" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-42" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-468" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-231" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,-468" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-168" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,-492" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-156" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,-324" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="Switch" CircId="Switch-374" mainComp="false" Show_id="false" Show_Val="false" Pos="-476,-428" rotation="90" hflip="1" vflip="1" label="Switch-374" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="WS2812" CircId="WS2812-103" mainComp="false" Show_id="false" Show_Val="false" Pos="-340,-372" rotation="-270" hflip="1" vflip="1" label="WS2812-103" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-62" mainComp="false" Show_id="false" Show_Val="false" Pos="-340,-492" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="Subcircuit" CircId="Nano-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-588,-496" rotation="0" hflip="1" vflip="1" label="Arduino Nano-1" idLabPos="100,-21" labelrot="0" valLabPos="0,0" valLabRot="0">
+<mainCompProps MainCompId="m328 TQFP-269" Frequency="16 MHz" Program=".pio/build/atmega16MHz-pol/firmware.hex" Auto_Load="true" saveEepr="true" SerialMon="-1" />
+</item>
+
+<item itemtype="WS2812" CircId="WS2812-152" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,-324" rotation="-270" hflip="1" vflip="1" label="WS2812-103" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-163" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,-396" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-35" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-444" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-628" mainComp="false" Show_id="false" Show_Val="false" Pos="-436,-468" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-229" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,-348" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-169" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,-444" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-553" mainComp="false" Show_id="false" Show_Val="false" Pos="-412,-420" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-224" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,-516" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-124" mainComp="false" Show_id="false" Show_Val="false" Pos="-340,-324" rotation="-270" hflip="1" vflip="1" label="WS2812-103" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-547" mainComp="false" Show_id="false" Show_Val="false" Pos="-412,-444" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-348" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-43" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-516" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-219" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-468" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-155" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,-516" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-223" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,-396" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-233" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,-492" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-216" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,-420" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-624" mainComp="false" Show_id="false" Show_Val="false" Pos="-436,-516" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-623" mainComp="false" Show_id="false" Show_Val="false" Pos="-436,-324" rotation="-270" hflip="1" vflip="1" label="WS2812-103" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-157" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,-372" rotation="-270" hflip="1" vflip="1" label="WS2812-103" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-222" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,-372" rotation="-270" hflip="1" vflip="1" label="WS2812-103" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-549" mainComp="false" Show_id="false" Show_Val="false" Pos="-412,-372" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-227" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-420" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-221" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-324" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-148" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,-348" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-125" mainComp="false" Show_id="false" Show_Val="false" Pos="-340,-348" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-629" mainComp="false" Show_id="false" Show_Val="false" Pos="-436,-348" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-151" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,-420" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-36" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-420" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-34" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-396" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-162" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,-420" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-228" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-396" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-158" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,-396" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-622" mainComp="false" Show_id="false" Show_Val="false" Pos="-436,-492" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-214" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-492" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-68" mainComp="false" Show_id="false" Show_Val="false" Pos="-340,-444" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-555" mainComp="false" Show_id="false" Show_Val="false" Pos="-412,-516" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-552" mainComp="false" Show_id="false" Show_Val="false" Pos="-412,-468" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-166" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,-468" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-551" mainComp="false" Show_id="false" Show_Val="false" Pos="-412,-348" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="Rectangle" CircId="Rectangle-294" mainComp="false" Show_id="false" Show_Val="false" Pos="-352,-404" rotation="0" hflip="1" vflip="1" label="Rectangle-294" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" H_size="200 _Pixels" V_size="280 _Pixels" Border="0 _Pixels" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="WS2812" CircId="WS2812-225" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,-444" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-626" mainComp="false" Show_id="false" Show_Val="false" Pos="-436,-396" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-627" mainComp="false" Show_id="false" Show_Val="false" Pos="-436,-372" rotation="-270" hflip="1" vflip="1" label="WS2812-103" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-69" mainComp="false" Show_id="false" Show_Val="false" Pos="-340,-396" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-45" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-492" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-234" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-444" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-160" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,-444" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-324" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-217" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,-324" rotation="-270" hflip="1" vflip="1" label="WS2812-103" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-226" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-372" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-621" mainComp="false" Show_id="false" Show_Val="false" Pos="-436,-420" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-159" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,-516" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-550" mainComp="false" Show_id="false" Show_Val="false" Pos="-412,-396" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-164" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,-348" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-67" mainComp="false" Show_id="false" Show_Val="false" Pos="-340,-420" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-66" mainComp="false" Show_id="false" Show_Val="false" Pos="-340,-468" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-149" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,-492" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-154" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,-468" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-61" mainComp="false" Show_id="false" Show_Val="false" Pos="-340,-516" rotation="-270" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-548" mainComp="false" Show_id="false" Show_Val="false" Pos="-412,-324" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-213" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-348" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="WS2812" CircId="WS2812-161" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,-372" rotation="-90" hflip="1" vflip="1" label="WS2812-4" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="1 _Leds" Cols="1 _Leds" />
+
+<item itemtype="Connector" uid="Connector-632" startpinid="WS2812-621-InPin" endpinid="WS2812-625-OutPin" pointList="-436,-432,-436,-432" />
+
+<item itemtype="Connector" uid="Connector-104" startpinid="WS2812-69-OutPin" endpinid="WS2812-103-InPin" pointList="-340,-384,-340,-384" />
+
+<item itemtype="Connector" uid="Connector-174" startpinid="WS2812-158-InPin" endpinid="WS2812-151-OutPin" pointList="-292,-408,-292,-408" />
+
+<item itemtype="Connector" uid="Connector-643" startpinid="WS2812-628-InPin" endpinid="WS2812-622-OutPin" pointList="-436,-480,-436,-480" />
+
+<item itemtype="Connector" uid="Connector-172" startpinid="WS2812-151-InPin" endpinid="WS2812-160-OutPin" pointList="-292,-432,-292,-432" />
+
+<item itemtype="Connector" uid="Connector-204" startpinid="WS2812-163-OutPin" endpinid="WS2812-162-InPin" pointList="-316,-408,-316,-408" />
+
+<item itemtype="Connector" uid="Connector-41" startpinid="WS2812-32-OutPin" endpinid="WS2812-34-InPin" pointList="-364,-384,-364,-384" />
+
+<item itemtype="Connector" uid="Connector-54" startpinid="WS2812-42-OutPin" endpinid="WS2812-45-InPin" pointList="-364,-480,-364,-480" />
+
+<item itemtype="Connector" uid="Connector-237" startpinid="WS2812-216-InPin" endpinid="WS2812-225-OutPin" pointList="-388,-432,-388,-432" />
+
+<item itemtype="Connector" uid="Connector-563" startpinid="WS2812-552-OutPin" endpinid="WS2812-554-InPin" pointList="-412,-480,-412,-480" />
+
+<item itemtype="Connector" uid="Connector-206" startpinid="WS2812-154-OutPin" endpinid="WS2812-149-InPin" pointList="-316,-480,-316,-480" />
+
+<item itemtype="Connector" uid="Connector-200" startpinid="WS2812-148-OutPin" endpinid="WS2812-161-InPin" pointList="-316,-360,-316,-360" />
+
+<item itemtype="Connector" uid="Connector-559" startpinid="WS2812-548-OutPin" endpinid="WS2812-551-InPin" pointList="-412,-336,-412,-336" />
+
+<item itemtype="Connector" uid="Connector-571" startpinid="WS2812-553-OutPin" endpinid="WS2812-547-InPin" pointList="-412,-432,-412,-432" />
+
+<item itemtype="Connector" uid="Connector-56" startpinid="WS2812-45-OutPin" endpinid="WS2812-43-InPin" pointList="-364,-504,-364,-504" />
+
+<item itemtype="Connector" uid="Connector-182" startpinid="WS2812-149-OutPin" endpinid="WS2812-155-InPin" pointList="-316,-504,-316,-504" />
+
+<item itemtype="Connector" uid="Connector-641" startpinid="WS2812-622-InPin" endpinid="WS2812-624-OutPin" pointList="-436,-504,-436,-504" />
+
+<item itemtype="Connector" uid="Connector-247" startpinid="WS2812-214-OutPin" endpinid="WS2812-220-InPin" pointList="-268,-504,-268,-504" />
+
+<item itemtype="Connector" uid="Connector-380" startpinid="Switch-374-switch0pinN" endpinid="Nano-1-10" pointList="-476,-412,-476,-316,-596,-316,-596,-384,-580,-384" />
+
+<item itemtype="Connector" uid="Connector-567" startpinid="WS2812-550-OutPin" endpinid="WS2812-553-InPin" pointList="-412,-408,-412,-408" />
+
+<item itemtype="Connector" uid="Connector-259" startpinid="WS2812-229-InPin" endpinid="WS2812-222-OutPin" pointList="-388,-360,-388,-360" />
+
+<item itemtype="Connector" uid="Connector-630" startpinid="WS2812-626-OutPin" endpinid="WS2812-627-InPin" pointList="-436,-384,-436,-384" />
+
+<item itemtype="Connector" uid="Connector-557" startpinid="WS2812-554-OutPin" endpinid="WS2812-555-InPin" pointList="-412,-504,-412,-504" />
+
+<item itemtype="Connector" uid="Connector-170" startpinid="WS2812-158-OutPin" endpinid="WS2812-157-InPin" pointList="-292,-384,-292,-384" />
+
+<item itemtype="Connector" uid="Connector-542" startpinid="WS2812-220-OutPin" endpinid="WS2812-159-InPin" pointList="-268,-528,-292,-528" />
+
+<item itemtype="Connector" uid="Connector-257" startpinid="WS2812-229-OutPin" endpinid="WS2812-217-InPin" pointList="-388,-336,-388,-336" />
+
+<item itemtype="Connector" uid="Connector-575" startpinid="Nano-1-2" endpinid="WS2812-221-InPin" pointList="-580,-448,-620,-448,-620,-288,-268,-288,-268,-312" />
+
+<item itemtype="Connector" uid="Connector-545" startpinid="WS2812-124-OutPin" endpinid="WS2812-4-InPin" pointList="-340,-312,-364,-312" />
+
+<item itemtype="Connector" uid="Connector-72" startpinid="WS2812-69-InPin" endpinid="WS2812-67-OutPin" pointList="-340,-408,-340,-408" />
+
+<item itemtype="Connector" uid="Connector-239" startpinid="WS2812-223-InPin" endpinid="WS2812-216-OutPin" pointList="-388,-408,-388,-408" />
+
+<item itemtype="Connector" uid="Connector-573" startpinid="WS2812-43-OutPin" endpinid="WS2812-224-InPin" pointList="-364,-528,-388,-528" />
+
+<item itemtype="Connector" uid="Connector-565" startpinid="WS2812-547-OutPin" endpinid="WS2812-552-InPin" pointList="-412,-456,-412,-456" />
+
+<item itemtype="Connector" uid="Connector-63" startpinid="WS2812-62-InPin" endpinid="WS2812-61-OutPin" pointList="-340,-504,-340,-504" />
+
+<item itemtype="Connector" uid="Connector-269" startpinid="WS2812-228-OutPin" endpinid="WS2812-227-InPin" pointList="-268,-408,-268,-408" />
+
+<item itemtype="Connector" uid="Connector-636" startpinid="WS2812-625-InPin" endpinid="WS2812-628-OutPin" pointList="-436,-456,-436,-456" />
+
+<item itemtype="Connector" uid="Connector-638" startpinid="WS2812-629-OutPin" endpinid="WS2812-623-InPin" pointList="-436,-336,-436,-336" />
+
+<item itemtype="Connector" uid="Connector-261" startpinid="WS2812-231-InPin" endpinid="WS2812-233-OutPin" pointList="-388,-480,-388,-480" />
+
+<item itemtype="Connector" uid="Connector-127" startpinid="WS2812-125-OutPin" endpinid="WS2812-124-InPin" pointList="-340,-336,-340,-336" />
+
+<item itemtype="Connector" uid="Connector-569" startpinid="WS2812-549-OutPin" endpinid="WS2812-550-InPin" pointList="-412,-384,-412,-384" />
+
+<item itemtype="Connector" uid="Connector-561" startpinid="WS2812-551-OutPin" endpinid="WS2812-549-InPin" pointList="-412,-360,-412,-360" />
+
+<item itemtype="Connector" uid="Connector-544" startpinid="WS2812-155-OutPin" endpinid="WS2812-61-InPin" pointList="-316,-528,-340,-528" />
+
+<item itemtype="Connector" uid="Connector-379" startpinid="Nano-1-GND1" endpinid="Switch-374-pinP0" pointList="-532,-472,-476,-472,-476,-444" />
+
+<item itemtype="Connector" uid="Connector-275" startpinid="WS2812-226-OutPin" endpinid="WS2812-228-InPin" pointList="-268,-384,-268,-384" />
+
+<item itemtype="Connector" uid="Connector-74" startpinid="WS2812-67-InPin" endpinid="WS2812-68-OutPin" pointList="-340,-432,-340,-432" />
+
+<item itemtype="Connector" uid="Connector-271" startpinid="WS2812-219-OutPin" endpinid="WS2812-214-InPin" pointList="-268,-480,-268,-480" />
+
+<item itemtype="Connector" uid="Connector-76" startpinid="WS2812-66-InPin" endpinid="WS2812-62-OutPin" pointList="-340,-480,-340,-480" />
+
+<item itemtype="Connector" uid="Connector-202" startpinid="WS2812-156-OutPin" endpinid="WS2812-148-InPin" pointList="-316,-336,-316,-336" />
+
+<item itemtype="Connector" uid="Connector-543" startpinid="WS2812-152-OutPin" endpinid="WS2812-156-InPin" pointList="-292,-312,-316,-312" />
+
+<item itemtype="Connector" uid="Connector-245" startpinid="WS2812-225-InPin" endpinid="WS2812-231-OutPin" pointList="-388,-456,-388,-456" />
+
+<item itemtype="Connector" uid="Connector-188" startpinid="WS2812-168-InPin" endpinid="WS2812-159-OutPin" pointList="-292,-504,-292,-504" />
+
+<item itemtype="Connector" uid="Connector-39" startpinid="WS2812-36-OutPin" endpinid="WS2812-35-InPin" pointList="-364,-432,-364,-432" />
+
+<item itemtype="Connector" uid="Connector-31" startpinid="WS2812-4-OutPin" endpinid="WS2812-6-InPin" pointList="-364,-336,-364,-336" />
+
+<item itemtype="Connector" uid="Connector-265" startpinid="WS2812-213-OutPin" endpinid="WS2812-226-InPin" pointList="-268,-360,-268,-360" />
+
+<item itemtype="Connector" uid="Connector-180" startpinid="WS2812-160-InPin" endpinid="WS2812-166-OutPin" pointList="-292,-456,-292,-456" />
+
+<item itemtype="Connector" uid="Connector-129" startpinid="WS2812-125-InPin" endpinid="WS2812-103-OutPin" pointList="-340,-360,-340,-360" />
+
+<item itemtype="Connector" uid="Connector-634" startpinid="WS2812-626-InPin" endpinid="WS2812-621-OutPin" pointList="-436,-408,-436,-408" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="WS2812-68-InPin" endpinid="WS2812-66-OutPin" pointList="-340,-456,-340,-456" />
+
+<item itemtype="Connector" uid="Connector-178" startpinid="WS2812-162-OutPin" endpinid="WS2812-169-InPin" pointList="-316,-432,-316,-432" />
+
+<item itemtype="Connector" uid="Connector-210" startpinid="WS2812-161-OutPin" endpinid="WS2812-163-InPin" pointList="-316,-384,-316,-384" />
+
+<item itemtype="Connector" uid="Connector-243" startpinid="WS2812-227-OutPin" endpinid="WS2812-234-InPin" pointList="-268,-432,-268,-432" />
+
+<item itemtype="Connector" uid="Connector-647" startpinid="WS2812-555-OutPin" endpinid="WS2812-624-InPin" pointList="-412,-528,-436,-528" />
+
+<item itemtype="Connector" uid="Connector-267" startpinid="WS2812-221-OutPin" endpinid="WS2812-213-InPin" pointList="-268,-336,-268,-336" />
+
+<item itemtype="Connector" uid="Connector-58" startpinid="WS2812-35-OutPin" endpinid="WS2812-42-InPin" pointList="-364,-456,-364,-456" />
+
+<item itemtype="Connector" uid="Connector-249" startpinid="WS2812-234-OutPin" endpinid="WS2812-219-InPin" pointList="-268,-456,-268,-456" />
+
+<item itemtype="Connector" uid="Connector-184" startpinid="WS2812-169-OutPin" endpinid="WS2812-154-InPin" pointList="-316,-456,-316,-456" />
+
+<item itemtype="Connector" uid="Connector-574" startpinid="WS2812-217-OutPin" endpinid="WS2812-548-InPin" pointList="-388,-312,-412,-312" />
+
+<item itemtype="Connector" uid="Connector-645" startpinid="WS2812-629-InPin" endpinid="WS2812-627-OutPin" pointList="-436,-360,-436,-360" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="WS2812-34-OutPin" endpinid="WS2812-36-InPin" pointList="-364,-408,-364,-408" />
+
+<item itemtype="Connector" uid="Connector-194" startpinid="WS2812-164-InPin" endpinid="WS2812-157-OutPin" pointList="-292,-360,-292,-360" />
+
+<item itemtype="Connector" uid="Connector-235" startpinid="WS2812-223-OutPin" endpinid="WS2812-222-InPin" pointList="-388,-384,-388,-384" />
+
+<item itemtype="Connector" uid="Connector-253" startpinid="WS2812-233-InPin" endpinid="WS2812-224-OutPin" pointList="-388,-504,-388,-504" />
+
+<item itemtype="Connector" uid="Connector-33" startpinid="WS2812-6-OutPin" endpinid="WS2812-32-InPin" pointList="-364,-360,-364,-360" />
+
+<item itemtype="Connector" uid="Connector-192" startpinid="WS2812-164-OutPin" endpinid="WS2812-152-InPin" pointList="-292,-336,-292,-336" />
+
+<item itemtype="Connector" uid="Connector-196" startpinid="WS2812-166-InPin" endpinid="WS2812-168-OutPin" pointList="-292,-480,-292,-480" />
+
+</circuit>

@@ -10,7 +10,7 @@ const RgbColor pal_heart_w[] = {
 
 const RgbColor pal_heart_r[] = {
 {0,0,0},      
-{48,0,0},
+{64,0,0},
 {255,0,0}
 };
 

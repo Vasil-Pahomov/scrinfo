@@ -4,7 +4,6 @@ const byte nytree_pic[WT*HT] PROGMEM = {
 #if BRD == BRD_BEL
 0, 0, 1, 0, 0, 0,
 0, 0, 2, 0, 0, 0,
-0, 0, 3, 0, 0, 0,
 0, 1, 3, 1, 0, 0,
 0, 2, 3, 2, 0, 0,
 0, 3, 3, 3, 0, 0,
@@ -13,16 +12,17 @@ const byte nytree_pic[WT*HT] PROGMEM = {
 2, 3, 3, 3, 2, 0,
 3, 3, 3, 3, 3, 0,
 3, 3, 3, 3, 3, 0,
+3, 3, 3, 3, 3, 0,
 #elif BRD == BRD_POL
 0, 0, 0, 0, 1, 0, 0, 0,
 0, 0, 0, 0, 2, 0, 0, 0,
-0, 0, 0, 0, 3, 0, 0, 0,
 0, 0, 0, 1, 3, 1, 0, 0,
 0, 0, 0, 2, 3, 2, 0, 0,
-0, 0, 0, 3, 3, 3, 0, 0,
-0, 0, 0, 3, 3, 3, 0, 0,
 0, 0, 1, 3, 3, 3, 1, 0,
 0, 0, 2, 3, 3, 3, 2, 0,
+0, 1, 2, 3, 3, 3, 2, 1,
+0, 2, 3, 3, 3, 3, 3, 2,
+0, 3, 3, 3, 3, 3, 3, 3,
 #endif
 };
 
@@ -79,6 +79,7 @@ void nytree_show_impl(int durationSec, const RgbColor * treePal, const RgbColor 
     unsigned long endms = millis() + 1000L * durationSec;
     while (millis() < endms)
     {
+        wait_start();
         display_pic_buf(nytree_pic, 0, 0, treePal);
         for (byte i=0;i<NYT_SPARKS;i++) {
             if (nyt_spark_phases[i]) {
@@ -105,14 +106,14 @@ void nytree_show_impl(int durationSec, const RgbColor * treePal, const RgbColor 
             }
         }
         bus_show();
-        //delay(10);
+        wait(10);
     }
     cls();
 }
 
 void nytree_show(int durationSec) {
     int treePalIdx = random(2);
-    int sparksPalIdx = random(3);
+    int sparksPalIdx = random(2);
     if (!digitalRead(10)) {
         if (treePalIdx == 1 && sparksPalIdx == 1) {
             sparksPalIdx = 2;
@@ -123,11 +124,8 @@ void nytree_show(int durationSec) {
         case 0:
             nytree_show_impl(durationSec, treePalIdx ? nytree_pal : nytree_pal_white, nytree_sparks_pal, sizeof(nytree_sparks_pal)/sizeof(RgbColor));
         break;
-        case 1:
-            nytree_show_impl(durationSec, nytree_pal_white, nytree_sparks_pal_brb, sizeof(nytree_sparks_pal_brb)/sizeof(RgbColor));
-        break;
         default:
-            nytree_show_impl(durationSec, nytree_pal_white, nytree_sparks_pal_blu, sizeof(nytree_sparks_pal_blu)/sizeof(RgbColor));
+            nytree_show_impl(durationSec, nytree_pal_white, nytree_sparks_pal_brb, sizeof(nytree_sparks_pal_brb)/sizeof(RgbColor));
         break;
     }
       
